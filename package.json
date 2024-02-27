@@ -1,0 +1,25 @@
+{
+  "name": "eureka-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "doc:dev": "pnpm -C docs dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eureka-ui/components": "workspace:*",
+    "@eureka-ui/theme-chalk": "workspace:*",
+    "@eureka-ui/utils": "workspace:*",
+    "typescript": "^5.3.3",
+    "vue": "^3.4.19"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "sass": "^1.71.1"
+  }
+}
